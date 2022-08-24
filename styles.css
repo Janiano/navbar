@@ -9,11 +9,11 @@
 }
 
 body{
-    background-color: #787477;
+    background-color: #E6DADA;
 }
 
 .header{
-    background-color: #9e3434;
+    background-image: linear-gradient(#DAD299, #B0DAB9);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,4 +50,101 @@ header .nav-links a{
     font-size: 700;
     color: rgb(237, 237, 237);
     text-decoration: none;
+}
+#libr {
+    margin-top: 65px;
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.info h1 {
+    font-size: 48px;
+    width: 60%;
+    min-width: 500px;
+    font-weight: 800;
+    color: black;
+}
+
+.info p {
+    font-size: 14px;
+    width: 75%;
+    color: darkslategrey;
+}
+
+.info a{
+    background-color: lightsalmon;
+    color: black;
+    width: 50px;
+    padding: 8px 5px;
+    border-radius: 15px;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Portad {
+    width: 300px;
+    background: pink;
+    padding: 24px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.portada-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.portadatop {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.portadatop h3 {
+    font-weight: 600;
+    font-size: 16px;
+    white-space: wrap
+}
+
+.portada-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info3{
+    display: flex;
+    text-align:justify;
+    font-weight: 600;
+    font-size: 16px;
+    gap: 20px;
+    
+}
+
+.info-productos{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: 500px;
+    padding: 23px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    gap: 20px;
+
 }
